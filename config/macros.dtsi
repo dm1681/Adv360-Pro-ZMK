@@ -1,3 +1,9 @@
+macro_closealttab: macro_closealttab{
+compatible = "zmk,behavior-macro";
+label = "macro_closealttab";
+#binding-cells = <0>;
+bindings = <&kp ENTER>, <&kt LEFT_ALT>;
+};
 macro_alttab: macro_alttab{
 compatible = "zmk,behavior-macro";
 label = "macro_alttab";
